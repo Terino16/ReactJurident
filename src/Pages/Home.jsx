@@ -2,9 +2,10 @@ import '../Pages/Home.css'
 import { useState } from 'react';
 const Home = () => {
     const [name, setname] = useState("Anubhav");
+    const [age, setage] = useState(0);
 
     const handleclick=()=>{
-        console.log(name);
+        console.log(name,age);
     }
   return (
     <div>
@@ -23,8 +24,16 @@ const Home = () => {
       <input 
       className='input' 
       placeholder="Anubhav"
+      type='string'
       value={name}
       onChange={(e)=>{setname(e.target.value)}}
+      />
+       <input 
+      className='input' 
+      placeholder="10"
+      type='number'
+      value={age}
+      onChange={(e)=>{setage(e.target.value)}}
       />
       <button onClick={handleclick}>
         Click
