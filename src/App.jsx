@@ -2,11 +2,15 @@
 import './App.css'
 import Layout from './Layout'
 import Home from './Pages/Home'
+import {Routes,Route} from "react-router-dom";
 function App() {
  return(
    <>
      <Layout>
-        <Home/>
+     <Routes>
+      <Route element={<Home/>} index></Route>
+        {/* <Route path="/about" element={<About/>}></Route> */}
+      </Routes>
        
      </Layout>
    </> 
