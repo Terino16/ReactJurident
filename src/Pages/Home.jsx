@@ -1,5 +1,6 @@
 import '../Pages/Home.css'
 import { useState } from 'react';
+import { useEffect } from 'react';
 const Home = () => {
     const [name, setname] = useState("Anubhav");
     const [age, setage] = useState(0);
@@ -7,6 +8,11 @@ const Home = () => {
     const handleclick=()=>{
         console.log(name,age);
     }
+
+   useEffect(()=>{
+    console.log("Use Effect called");
+   },[]);
+    
   return (
     <div>
         <div className="hero">
