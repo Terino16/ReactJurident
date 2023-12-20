@@ -1,35 +1,42 @@
 /* Navbar.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 .navbar {
-    background-color: #333;
     padding: 10px;
+    margin: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  
-  .logo {
-    color: white;
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  
+
   .nav-links {
     list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     display: flex;
     gap: 20px;
   }
-  
-  .nav-links li {
-    margin: 0;
-  }
+
   
   .nav-links a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
   }
   
   .nav-links a:hover {
-    text-decoration: underline;
+    color:rgb(145, 58, 227);
+  }
+  .nav-button{
+    width: fit-content;
+  background: #ffffff;
+   padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    font-weight: bolder;
+    border-radius: 20px;
+  }
+  .nav-button:hover{
+    background: purple;
+    color: white;
   }
   
