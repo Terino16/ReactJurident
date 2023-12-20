@@ -1,50 +1,30 @@
 import '../Pages/Home.css'
-import { useState } from 'react';
-import { useEffect } from 'react';
+import { TbPhoneCalling } from "react-icons/tb";
 const Home = () => {
-    const [name, setname] = useState("Anubhav");
-    const [age, setage] = useState(0);
-
-    const handleclick=()=>{
-        console.log(name,age);
-    }
-
-   useEffect(()=>{
-    console.log("Use Effect called");
-   },[]);
-    
   return (
-    <div>
-        <div className="hero">
-        <div className="hero-heading">
-           <h1>Welcome to Front End Development classNamees</h1>
-           <p>
-            Are you ready to embark on a journey into the dynamic world of web development? Look no further! Our Front-End Developer classNamees are your gateway to mastering the art of creating stunning, interactive, and user-friendly websites.
-           </p>
-           <button className="hover-button">Hover Me</button>
-        </div>
-     </div>
+    <div className='Hero-section'>
+    <div className='Hero-section-1'>
+      <h1>Entrust your smile to professionals</h1>
+      <p className='description'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex reprehenderit eum placeat impedit quam, numquam mollitia magni, animi, modi libero expedita consequatur excepturi cupiditate eaque </p>
+      <div className='hero-section-1-div'>
+      <button className='nav-button'>Book Appointment</button>
+      <span className='calling-logo'>
+      <TbPhoneCalling color='purple' size={35} />
+      </span>
+      <span>
+        <p className='emergency-text'>Dental emergency</p>
+        <p className='phone-number'>4984382892</p>
+      </span>
+      </div>
 
-     <div className='hero2' >
-       <h1> Enter your Name</h1>
-      <input 
-      className='input' 
-      placeholder="Anubhav"
-      type='string'
-      value={name}
-      onChange={(e)=>{setname(e.target.value)}}
+    </div>
+    <div>
+      <img
+      src="https://dentalist.netlify.app/static/media/1.f2649a478388d6ec5cf7.png"
+      width={400}
       />
-       <input 
-      className='input' 
-      placeholder="10"
-      type='number'
-      value={age}
-      onChange={(e)=>{setage(e.target.value)}}
-      />
-      <button onClick={handleclick}>
-        Click
-      </button>
-     </div>
+    </div>
+   
     </div>
    
   )
