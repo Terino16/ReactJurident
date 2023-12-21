@@ -1,0 +1,47 @@
+.Service{
+    margin: 50px;
+    margin-bottom: 100px;
+}
+.Service-Hero{
+    background: #9bd7f7;
+    padding: 80px 120px 120px 80px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:screen;
+    height:screen;
+    position: relative;
+}
+.Service-img{
+    position:absolute;
+    top:100px;
+    right:30px;
+}
+.Service-hero-section1{
+    padding-top: 100px;
+    width: 550px;
+}
+.Service-hero-section1 h1{
+    font-size: 70px;
+}
+.Service-hero-section1 p{
+    color:rgb(127, 126, 126);
+    font-size: larger;
+}
+
+.Service-nav-button{
+    width: fit-content;
+  background: #ffffff;
+   padding: 15px;
+   font-family:'Times New Roman', Times, serif;
+   font-size: large;
+    border: none;
+    font-weight: 700;
+    border-radius: 20px;
+    margin-top: 60px;
+  }
+  .Service-nav-button:hover{
+    background: purple;
+    color: white;
+  }
