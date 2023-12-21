@@ -11,6 +11,9 @@
     line-height: 1.5;
    
   }
+  .Home{
+    margin: 50px;
+  }
   .calling-logo{
     background: #ffffff;
     padding: 4px;
@@ -19,7 +22,7 @@
 
   .Hero-section{
     background: #9bd7f7;
-    margin: 50px;
+    
     padding: 50px;
     border-radius: 40px;
     display: flex;
@@ -70,7 +73,35 @@
     font-weight: bold;
   }
 
-  
+  .Services{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  .Services h4{
+    color: purple; font-size: larger;
+  }
+  .Services h1{
+    font-size: 50px;
+  }
+  .Services-section-1{
+    padding: 20px;
+  }
+  .Services-section-2{
+    color:rgb(127, 126, 126);
+    font-size: larger;
+    width: 50%;
+    padding: 20px;
+  }
+
+  .Information{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
 
   
   
