@@ -1,51 +1,81 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
+* {
     padding: 0;
-    background-color: #f4f4f4;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
+.main-container-new {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-1-new {
+    background-color: rgb(218,240,250);
+    height: 500px;
+    width: auto;
+    border-radius: 50px;
     text-align: center;
-    padding: 1em 0;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+.main-heading-new {
+    margin-top: -15%;
+    font-size: x-large;
+}
+.sub-heading-new {
+    margin-top: -15%;
+    margin-left: 460px;
+    width: 400px;
 }
 
-form {
-    background-color: #fff;
-    padding: 2em;
-    margin-top: 2em;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.container-2-new {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(253,253,253);
+    padding: 50px;
+    width: 800px;
+    margin-left: 360px;
+    margin-top: -15%;
+    border-radius: 25px;
 }
 
-label {
-    display: block;
-    margin-bottom: 0.5em;
+.sub-container-1-new {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap:100px;
 }
 
-input,
-textarea {
-    width: 100%;
-    padding: 0.5em;
-    margin-bottom: 1em;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+h3 {
+    margin-bottom: 10px;
+}
+.inp {
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
-input[type="submit"] {
-    background-color: #333;
-    color: #fff;
-    cursor: pointer;
+.sub-container-2-new {
+    display: flex;
+    gap:30px;
+    padding: 50px;
+    text-align: left;
 }
 
-input[type="submit"]:hover {
-    background-color: #555;
+.contact-button-new {
+    color: white;
+    padding: 18px;
+    background-color: rgb(88,63,188);
+    border: rgb(88,63,188);
+    border-radius: 15px;
+}
+
+.contact-button-new:hover {
+    color:rgb(88,63,188);
+    background-color: white;
+    border: 1px solid rgb(88,63,188);
 }

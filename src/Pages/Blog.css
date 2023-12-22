@@ -1,0 +1,24 @@
+.Blog-Hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Blog-News{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.Blog-News-p{
+    font-size: larger;
+    color: rgb(120, 121, 121);
+}
+.Blog-Card{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:20px;
+}
